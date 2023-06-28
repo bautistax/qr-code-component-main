@@ -1,0 +1,60 @@
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+img,picture {
+ max-width: 100%;
+ display: block;   
+}
+
+input,
+button,
+textarea,
+select {
+    font:inherit;
+}
+
+:root {
+    --White:hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+  }
+
+body {
+    background-color: var(--Light-gray);
+    display: grid;
+    place-content: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.9375rem;
+}
+
+.card {
+    margin: 1rem;
+    padding: 1rem 1rem 2.5rem 1rem;
+    background-color: var(--White);
+    border-radius: 20px;
+    max-width: 20rem;
+    text-align: center;
+}
+
+.image_qr_code {
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 1.375;
+    font-weight: 700;
+    margin-block-start: 1.5rem;
+    margin-block-end: 1rem;
+    color: var(--Drk-blue);
+    line-height: 1.26;
+}
+
+text {
+    color: var(--Grayish-blue);
+    line-height: 1.26;
+    padding: 0 1rem 0 1rem;
+    font-weight: 400;
+}
